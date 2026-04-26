@@ -1,0 +1,63 @@
+# Redis
+
+Redis는 인메모리 기반의 데이터 저장소이다.
+주로 캐시, 세션 저장소, Pub/Sub 시스템으로 사용된다.
+
+Redis의 특징:
+- 매우 빠른 읽기/쓰기 속도
+- 다양한 자료구조 지원 (String, List, Set, Hash 등)
+- persistence 기능 제공 (RDB, AOF)
+
+Redis는 대규모 트래픽 처리에서 성능 향상을 위해 많이 사용된다.
+
+
+# FastAPI
+
+FastAPI는 Python 기반의 고성능 웹 프레임워크이다.
+비동기(async/await)를 지원하여 높은 처리량을 제공한다.
+
+FastAPI의 특징:
+- 자동 API 문서 생성 (Swagger)
+- 타입 힌트를 기반으로 한 검증
+- 빠른 개발 속도
+
+주로 마이크로서비스 아키텍처에서 많이 사용된다.
+
+
+# Docker
+
+Docker는 애플리케이션을 컨테이너 단위로 실행할 수 있게 해주는 플랫폼이다.
+환경 일관성을 유지할 수 있다는 장점이 있다.
+
+Docker의 주요 개념:
+- Image: 실행 가능한 패키지
+- Container: 실행 중인 인스턴스
+- Volume: 데이터 영속성
+
+개발 및 배포 환경을 동일하게 유지할 수 있다.
+
+
+# RAG (Retrieval-Augmented Generation)
+
+RAG는 검색(Retrieval)과 생성(Generation)을 결합한 구조이다.
+
+동작 방식:
+1. 사용자 질문을 embedding으로 변환
+2. vector DB에서 유사한 문서 검색
+3. 검색된 문서를 LLM에 context로 전달
+4. LLM이 답변 생성
+
+RAG는 LLM의 hallucination 문제를 줄이는 데 효과적이다.
+
+
+# FAISS
+
+FAISS는 Facebook에서 개발한 벡터 검색 라이브러리이다.
+고속 유사도 검색을 지원한다.
+
+특징:
+- 대규모 벡터 처리 가능
+- 다양한 인덱스 구조 제공
+- CPU/GPU 지원
+
+벡터 데이터베이스의 핵심 엔진으로 자주 사용된다.
