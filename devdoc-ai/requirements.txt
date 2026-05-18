@@ -1,6 +1,9 @@
 fastapi
-uvicorn
+uvicorn[standard]
 sentence-transformers
 faiss-cpu
 numpy
 requests
+pdfplumber
+python-multipart
+pydantic-settings
