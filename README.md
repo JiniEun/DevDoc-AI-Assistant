@@ -18,6 +18,16 @@
 
 ---
 
+## 예시 화면
+
+### 웹 UI
+
+![DevDoc AI Assistant 웹 UI](devdoc-ai/assets/image/web_ui_example.png)
+
+> PDF 문서를 업로드한 뒤 질문하면 문서 내용을 근거로 스트리밍 답변과 출처 청크를 함께 반환합니다.
+
+---
+
 ## 아키텍처
 
 ```
